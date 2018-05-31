@@ -1,0 +1,43 @@
+body {
+	background-color: #ffffff;
+}
+
+#header-nav {
+	background-color: #b8b8b8;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-header {
+	padding-left: 20px;
+}
+#nav-list a:hover {
+	background: E7E7E7;
+}
+
+h2{
+	text-align: center;
+}
+h3 {
+	text-align: center;
+}
+p {
+	font-size: .8em;
+}
+
+div .jumbotron {
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #ffffff;
+}
+.chickeninabox, .beefinabox, .sushiinabox {
+	background-color: #b8b8b8;
+
+}
+
+.navbar-header .navbar-brand {
+	font-weight: bold;
+	color: #000000;
+	font-size: 2em;
+}

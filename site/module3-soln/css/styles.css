@@ -1,9 +1,20 @@
+
+
 body {
   font-size: 16px;
   color: #fff;
   background-color: #61122f;
   font-family: 'Oxygen', sans-serif;
   height: 2000px;
+}
+.item{
+  font-size: 30px;
+  height: 10px;
+
+}
+.categ{
+  background-color: MediumSeaGreen;
+
 }
 
 /*.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
@@ -51,12 +62,15 @@ h3{
 
  p {
   
- /* background-color: gray;*/
+ 
  margin-top: 50px;
-  margin: 20px;
   padding: 15px;
-  height: 2000px;
+  margin: 20px;
   z-index: 1;
+}
+.navbar-toggle
+{
+  float: right !important;
 }
 
 .navbar-brand {
