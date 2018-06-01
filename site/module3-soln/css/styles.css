@@ -2,18 +2,19 @@
 
 body {
   font-size: 16px;
-  color: #fff;
-  background-color: #61122f;
+  color: white;
+  background-color: #0099cc;
   font-family: 'Oxygen', sans-serif;
-  height: 2000px;
+  
 }
+
 .item{
   font-size: 30px;
-  height: 10px;
+  height: 10px !important;
 
 }
 .categ{
-  background-color: MediumSeaGreen;
+  background-color:#4dff4d;
 
 }
 
@@ -30,7 +31,7 @@ h1{
   text-align: center;
   font-family: cursive;
 }
-h2{
+/*h2{
 
 color: black;
   text-align: center;
@@ -39,25 +40,43 @@ color: black;
 
 /** HEADER **/
 #header-nav {
-  background-color: grey;
-  border-radius: 1;
-  border: 1px solid black;
+  background-color: #66ff99;
+  border-radius: 0px;
+  }
   
+.border{
+
+border-bottom: 2px solid black;
 
 
 }
 .back{
-  background-color: gray;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.back1{
+  background-color:#4db8ff;
   margin: 15px;
+  
+}
+
+  .back2{
+  background-color: #4db8ff;
+  margin: 15px;
+  
+}
+  .back3{
+  background-color: #4db8ff;
+  margin: 15px;
+  
 
 }
 
-h3{
- 
+h2{
+  
   text-align: center;
   background-color: gray;
   color: black;
-  size: 10px;
+  
 }
 
  p {
@@ -79,7 +98,7 @@ h3{
 
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
-  color: #557c3e;
+  color: #660066;
   font-size: 1.5em;
 
   text-transform: uppercase;
@@ -93,7 +112,7 @@ h3{
   text-decoration: none;
 }
 .navbar-brand p { /* Kosher cert */
-  color: #000;
+  color: #660066;
   text-transform: uppercase;
   font-size: .7em;
   margin-top: 15px;
